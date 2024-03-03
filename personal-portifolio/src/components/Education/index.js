@@ -20,7 +20,7 @@ const collegeContent = [
     {
         id:0,
         specialization :'Computer Science',
-        EducationDate: 'August 2021 - Present(Expected graduation date: May, 2023)',
+        EducationDate: 'August 2021 - December 2023',
         degreeDiscription: ['Realated Subjects: Cloud Computing, Advanced Software Engineering, Principles of Big Data']
     },
     {

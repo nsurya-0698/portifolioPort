@@ -15,6 +15,12 @@
     border-bottom: 1px solid #112240e3;
 }
 
+.job-content-scrollable {
+    max-height: 300px; /* Adjust max height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: auto; /* Enable horixontal scrolling */
+}  
+
 .experience-data{
     display: flex;
     flex-direction: column;
