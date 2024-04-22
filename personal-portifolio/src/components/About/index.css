@@ -41,3 +41,13 @@
         padding: 20px;
     }
 }
+
+.contact-btn{
+    border: 1px solid #64ffda;
+    background-color: transparent;
+    color: #64ffda;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: monospace;
+}
