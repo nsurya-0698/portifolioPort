@@ -45,8 +45,8 @@ class App extends Component {
               <Header/> 
               <Main/>
               <About/>
-              <Education/>
               <Experience/>
+              <Education/>
               {/* <Projects/> */}
               <Contact/>
               <Footer/>
