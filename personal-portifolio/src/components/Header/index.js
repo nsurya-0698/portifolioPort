@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import resume from './Surya_Teja_Nammi.pdf'
+import resume from './SuryaTejaResume.pdf'
 import './index.css';
 
 class Header extends Component{
@@ -12,13 +12,6 @@ class Header extends Component{
     closeHam = () => {
         this.setState({hamburgerclicked:false,makeBlur:true,hideHam:false});
     }
-
-    /* onScroll = () => {
-        let {prevPos} = this.state;
-        let currentPos = window.pageYOffset;
-        prevPos > currentPos ? this.setState({topVal: 0}) : this.setState({topVal: currentPos});
-        prevPos = currentPos;
-    } */
 
     scrolled = event => {
         console.log('scrolled')
@@ -38,15 +31,15 @@ class Header extends Component{
                         <a href="#about" className="nav-things">
                             <li className="header-content about">About</li>
                         </a>
-                        <a href="#Education" className="nav-things">
+                        {/* <a href="#Education" className="nav-things">
                             <li className="header-content exp">Education</li>
-                        </a>
-                        <a href="#experience" className="nav-things">
+                        </a> */}
+                        <a href="#exp" className="nav-things">
                             <li className="header-content exp">Experience</li>
                         </a>
-                        <a href="#work" className="nav-things">
+                        {/* <a href="#work" className="nav-things">
                             <li className="header-content work">Projects</li>
-                        </a>
+                        </a> */}
                         <a href="#contact" className="nav-things">
                             <li className="header-content contact">Contact</li>
                         </a>
