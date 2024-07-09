@@ -55,3 +55,64 @@
         transition: text-decoration 0.5s;
     }
 }
+
+.opening-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+  }
+  
+  .opening-content {
+    text-align: center;
+  }
+  
+  .intro {
+    font-size: 1.5rem;
+    color: #fff; /* White text for contrast */
+  }
+  
+  .name-header {
+    font-size: 2.5rem;
+    color: #fff; /* White text for contrast */
+  }
+  
+  .passion-header {
+    font-size: 2rem; /* Adjust size as needed */
+    color: #fff; /* White text for contrast */
+    animation: slideIn 2s ease-out;
+  }
+  
+  .statement {
+    font-size: 1.25rem;
+    color: #ccc; /* Light grey for better readability */
+    margin-top: 1rem;
+  }
+  
+  .get-in-touch {
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #000; /* Black text */
+    background-color: #fff; /* White background */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-in-touch:hover {
+    background-color: #ccc; /* Light grey on hover */
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
